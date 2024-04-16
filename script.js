@@ -161,7 +161,7 @@ form.addEventListener('input', (event2) => {
     arrowWrapper.classList.replace('speed-0', 'speed-180');
   }
   else if (acidez > 1.2) {
-        arrowWrapper.classList.replace('speed-0', 'speed-190');
+        arrowWrapper.classList.replace('speed-0', 'speed-180');
     } 
   
 changeText();
