@@ -50,6 +50,7 @@ form.addEventListener('input', (event2) => {
   arrowWrapper.classList.replace('speed-160', 'speed-0');
   arrowWrapper.classList.replace('speed-170', 'speed-0');
   arrowWrapper.classList.replace('speed-180', 'speed-0');
+  arrowWrapper.classList.replace('speed-190', 'speed-0');
 }
 
   event2.preventDefault();
@@ -158,6 +159,9 @@ form.addEventListener('input', (event2) => {
   }
   else if ((acidez <= 1.23) && (acidez>1.2) ) {
     arrowWrapper.classList.replace('speed-0', 'speed-180');
+  }
+    else if ( acidez>=1.2 ) {
+    arrowWrapper.classList.replace('speed-0', 'speed-190');
   }
   
 changeText();
